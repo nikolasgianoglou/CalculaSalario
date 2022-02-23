@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F856730927C64CB500C705B7 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856730827C64CB500C705B7 /* AppModel.swift */; };
+		F8F9619927C5488E00F06AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9619827C5488E00F06AFE /* AppDelegate.swift */; };
+		F8F9619B27C5488E00F06AFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9619A27C5488E00F06AFE /* SceneDelegate.swift */; };
+		F8F9619D27C5488E00F06AFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9619C27C5488E00F06AFE /* ViewController.swift */; };
+		F8F961A227C5489000F06AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F961A127C5489000F06AFE /* Assets.xcassets */; };
+		F8F961A527C5489100F06AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F961A327C5489100F06AFE /* LaunchScreen.storyboard */; };
+		F8F961B027C5489100F06AFE /* CalculaSalarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F961AF27C5489100F06AFE /* CalculaSalarioTests.swift */; };
+		F8F961BA27C5489100F06AFE /* CalculaSalarioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F961B927C5489100F06AFE /* CalculaSalarioUITests.swift */; };
+		F8F961BC27C5489100F06AFE /* CalculaSalarioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F961BB27C5489100F06AFE /* CalculaSalarioUITestsLaunchTests.swift */; };
+		F8F961CD27C550A900F06AFE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F961CC27C550A900F06AFE /* Coordinator.swift */; };
+		F8F961CF27C5510300F06AFE /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F961CE27C5510300F06AFE /* MainCoordinator.swift */; };
+		F8F961D127C5584900F06AFE /* MainSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F961D027C5584900F06AFE /* MainSceneView.swift */; };
+		F8F961D527C55B2600F06AFE /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F961D427C55B2600F06AFE /* LabelDefault.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8F961AC27C5489100F06AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F9618D27C5488E00F06AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F9619427C5488E00F06AFE;
+			remoteInfo = CalculaSalario;
+		};
+		F8F961B627C5489100F06AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F9618D27C5488E00F06AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F9619427C5488E00F06AFE;
+			remoteInfo = CalculaSalario;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F856730827C64CB500C705B7 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		F8F9619527C5488E00F06AFE /* CalculaSalario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculaSalario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F9619827C5488E00F06AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8F9619A27C5488E00F06AFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8F9619C27C5488E00F06AFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8F961A127C5489000F06AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8F961A427C5489100F06AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8F961A627C5489100F06AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F961AB27C5489100F06AFE /* CalculaSalarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculaSalarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F961AF27C5489100F06AFE /* CalculaSalarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaSalarioTests.swift; sourceTree = "<group>"; };
+		F8F961B527C5489100F06AFE /* CalculaSalarioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculaSalarioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F961B927C5489100F06AFE /* CalculaSalarioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaSalarioUITests.swift; sourceTree = "<group>"; };
+		F8F961BB27C5489100F06AFE /* CalculaSalarioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaSalarioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8F961CC27C550A900F06AFE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F8F961CE27C5510300F06AFE /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		F8F961D027C5584900F06AFE /* MainSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSceneView.swift; sourceTree = "<group>"; };
+		F8F961D427C55B2600F06AFE /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8F9619227C5488E00F06AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F961A827C5489100F06AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F961B227C5489100F06AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F856730727C64C8200C705B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F856730827C64CB500C705B7 /* AppModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8F9618C27C5488E00F06AFE = {
+			isa = PBXGroup;
+			children = (
+				F8F9619727C5488E00F06AFE /* CalculaSalario */,
+				F8F961C827C54E8400F06AFE /* Source */,
+				F8F961AE27C5489100F06AFE /* CalculaSalarioTests */,
+				F8F961B827C5489100F06AFE /* CalculaSalarioUITests */,
+				F8F9619627C5488E00F06AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8F9619627C5488E00F06AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F9619527C5488E00F06AFE /* CalculaSalario.app */,
+				F8F961AB27C5489100F06AFE /* CalculaSalarioTests.xctest */,
+				F8F961B527C5489100F06AFE /* CalculaSalarioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F9619727C5488E00F06AFE /* CalculaSalario */ = {
+			isa = PBXGroup;
+			children = (
+				F8F961CB27C54EF800F06AFE /* Resource */,
+				F8F961A327C5489100F06AFE /* LaunchScreen.storyboard */,
+				F8F961A627C5489100F06AFE /* Info.plist */,
+			);
+			path = CalculaSalario;
+			sourceTree = "<group>";
+		};
+		F8F961AE27C5489100F06AFE /* CalculaSalarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8F961AF27C5489100F06AFE /* CalculaSalarioTests.swift */,
+			);
+			path = CalculaSalarioTests;
+			sourceTree = "<group>";
+		};
+		F8F961B827C5489100F06AFE /* CalculaSalarioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8F961B927C5489100F06AFE /* CalculaSalarioUITests.swift */,
+				F8F961BB27C5489100F06AFE /* CalculaSalarioUITestsLaunchTests.swift */,
+			);
+			path = CalculaSalarioUITests;
+			sourceTree = "<group>";
+		};
+		F8F961C827C54E8400F06AFE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F8F961C927C54EAC00F06AFE /* Controller */,
+				F8F961CA27C54EBC00F06AFE /* Coordinator */,
+				F8F961D227C55AB800F06AFE /* Infrastructure */,
+				F856730727C64C8200C705B7 /* Model */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F8F961C927C54EAC00F06AFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F8F9619C27C5488E00F06AFE /* ViewController.swift */,
+				F8F961D027C5584900F06AFE /* MainSceneView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F8F961CA27C54EBC00F06AFE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F8F961CC27C550A900F06AFE /* Coordinator.swift */,
+				F8F961CE27C5510300F06AFE /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F8F961CB27C54EF800F06AFE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F8F9619A27C5488E00F06AFE /* SceneDelegate.swift */,
+				F8F9619827C5488E00F06AFE /* AppDelegate.swift */,
+				F8F961A127C5489000F06AFE /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F8F961D227C55AB800F06AFE /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				F8F961D327C55B0200F06AFE /* Components */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		F8F961D327C55B0200F06AFE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F8F961D427C55B2600F06AFE /* LabelDefault.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8F9619427C5488E00F06AFE /* CalculaSalario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F961BF27C5489100F06AFE /* Build configuration list for PBXNativeTarget "CalculaSalario" */;
+			buildPhases = (
+				F8F9619127C5488E00F06AFE /* Sources */,
+				F8F9619227C5488E00F06AFE /* Frameworks */,
+				F8F9619327C5488E00F06AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculaSalario;
+			productName = CalculaSalario;
+			productReference = F8F9619527C5488E00F06AFE /* CalculaSalario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8F961AA27C5489100F06AFE /* CalculaSalarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F961C227C5489100F06AFE /* Build configuration list for PBXNativeTarget "CalculaSalarioTests" */;
+			buildPhases = (
+				F8F961A727C5489100F06AFE /* Sources */,
+				F8F961A827C5489100F06AFE /* Frameworks */,
+				F8F961A927C5489100F06AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F961AD27C5489100F06AFE /* PBXTargetDependency */,
+			);
+			name = CalculaSalarioTests;
+			productName = CalculaSalarioTests;
+			productReference = F8F961AB27C5489100F06AFE /* CalculaSalarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8F961B427C5489100F06AFE /* CalculaSalarioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F961C527C5489100F06AFE /* Build configuration list for PBXNativeTarget "CalculaSalarioUITests" */;
+			buildPhases = (
+				F8F961B127C5489100F06AFE /* Sources */,
+				F8F961B227C5489100F06AFE /* Frameworks */,
+				F8F961B327C5489100F06AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F961B727C5489100F06AFE /* PBXTargetDependency */,
+			);
+			name = CalculaSalarioUITests;
+			productName = CalculaSalarioUITests;
+			productReference = F8F961B527C5489100F06AFE /* CalculaSalarioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8F9618D27C5488E00F06AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F8F9619427C5488E00F06AFE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F8F961AA27C5489100F06AFE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F8F9619427C5488E00F06AFE;
+					};
+					F8F961B427C5489100F06AFE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F8F9619427C5488E00F06AFE;
+					};
+				};
+			};
+			buildConfigurationList = F8F9619027C5488E00F06AFE /* Build configuration list for PBXProject "CalculaSalario" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8F9618C27C5488E00F06AFE;
+			productRefGroup = F8F9619627C5488E00F06AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8F9619427C5488E00F06AFE /* CalculaSalario */,
+				F8F961AA27C5489100F06AFE /* CalculaSalarioTests */,
+				F8F961B427C5489100F06AFE /* CalculaSalarioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8F9619327C5488E00F06AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F961A527C5489100F06AFE /* LaunchScreen.storyboard in Resources */,
+				F8F961A227C5489000F06AFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F961A927C5489100F06AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F961B327C5489100F06AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8F9619127C5488E00F06AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F961CD27C550A900F06AFE /* Coordinator.swift in Sources */,
+				F8F9619D27C5488E00F06AFE /* ViewController.swift in Sources */,
+				F8F961D127C5584900F06AFE /* MainSceneView.swift in Sources */,
+				F856730927C64CB500C705B7 /* AppModel.swift in Sources */,
+				F8F9619927C5488E00F06AFE /* AppDelegate.swift in Sources */,
+				F8F961CF27C5510300F06AFE /* MainCoordinator.swift in Sources */,
+				F8F961D527C55B2600F06AFE /* LabelDefault.swift in Sources */,
+				F8F9619B27C5488E00F06AFE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F961A727C5489100F06AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F961B027C5489100F06AFE /* CalculaSalarioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F961B127C5489100F06AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F961BC27C5489100F06AFE /* CalculaSalarioUITestsLaunchTests.swift in Sources */,
+				F8F961BA27C5489100F06AFE /* CalculaSalarioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8F961AD27C5489100F06AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F9619427C5488E00F06AFE /* CalculaSalario */;
+			targetProxy = F8F961AC27C5489100F06AFE /* PBXContainerItemProxy */;
+		};
+		F8F961B727C5489100F06AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F9619427C5488E00F06AFE /* CalculaSalario */;
+			targetProxy = F8F961B627C5489100F06AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8F961A327C5489100F06AFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F961A427C5489100F06AFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8F961BD27C5489100F06AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8F961BE27C5489100F06AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8F961C027C5489100F06AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculaSalario/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolas.CalculaSalario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8F961C127C5489100F06AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculaSalario/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolas.CalculaSalario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8F961C327C5489100F06AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolas.CalculaSalarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculaSalario.app/CalculaSalario";
+			};
+			name = Debug;
+		};
+		F8F961C427C5489100F06AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolas.CalculaSalarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculaSalario.app/CalculaSalario";
+			};
+			name = Release;
+		};
+		F8F961C627C5489100F06AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolas.CalculaSalarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculaSalario;
+			};
+			name = Debug;
+		};
+		F8F961C727C5489100F06AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolas.CalculaSalarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculaSalario;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8F9619027C5488E00F06AFE /* Build configuration list for PBXProject "CalculaSalario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F961BD27C5489100F06AFE /* Debug */,
+				F8F961BE27C5489100F06AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F961BF27C5489100F06AFE /* Build configuration list for PBXNativeTarget "CalculaSalario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F961C027C5489100F06AFE /* Debug */,
+				F8F961C127C5489100F06AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F961C227C5489100F06AFE /* Build configuration list for PBXNativeTarget "CalculaSalarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F961C327C5489100F06AFE /* Debug */,
+				F8F961C427C5489100F06AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F961C527C5489100F06AFE /* Build configuration list for PBXNativeTarget "CalculaSalarioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F961C627C5489100F06AFE /* Debug */,
+				F8F961C727C5489100F06AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8F9618D27C5488E00F06AFE /* Project object */;
+}
